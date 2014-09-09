@@ -102,7 +102,7 @@ namespace eID
 
 						strAdresse = FIDBelgianEidCard.GetStreetAndNumberFromAddress((NSData)Adresse) + " " +  FIDBelgianEidCard.GetMunicipalityFromAddress((NSData)Adresse);
 
-						msg = new UIAlertView() { Title = "MEDINECT", Message = strNom + " " + strAdresse };
+						msg = new UIAlertView() { Title = "MEDINECT2014", Message = strNom + " " + strAdresse };
 	                    msg.AddButton("OK");
 	                        
 	                           
